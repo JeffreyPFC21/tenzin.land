@@ -1,23 +1,33 @@
 import './App.css';
-import Tenzin from './modules/Tenzin';
-import Message from './modules/Message';
-import Counter from './modules/Counter';
-import FunctionClick from './modules/FunctionClick';
-import ClassClick from './modules/ClassClick';
-import EventBind from './modules/EventBind';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from './modules/Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="https://cdn.discordapp.com/emojis/764118435797925898.png" className="App-logo" alt="logo" />
-        <p>
-          <Tenzin/>
-          <Message/>
-          <Counter/>
-          <EventBind/>
-        </p>
-      </header>
+      <Router>
+        <div>
+          <ul>
+            <li>
+              <Link to="/">tenzins nursery</Link>
+            </li>
+          </ul>
+
+          <hr />
+
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+
+          </Switch>
+        </div>
+      </Router>
     </div>
   );
 }
