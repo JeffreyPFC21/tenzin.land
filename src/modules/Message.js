@@ -20,7 +20,8 @@ export default class Message extends React.Component {
         } else {
             this.setState({
                 message: "Welcome subsciber i defo know",
-                isSubbed: true
+                isSubbed: true,
+                subMsg: "dont you dare"
             })
         }
     }
