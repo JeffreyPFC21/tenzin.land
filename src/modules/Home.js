@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import '../App.css';
 import Tenzin from './modules/Tenzin';
 import Message from './modules/Message';
 import Counter from './modules/Counter';
