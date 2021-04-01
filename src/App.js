@@ -11,10 +11,11 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div>
+        <div className="App">
           <ul>
             <li>
               <Link to="/">tenzins nursery</Link>
+              <Link to="/portfolio">portflio</Link>
             </li>
           </ul>
 
@@ -24,7 +25,9 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
-
+            <Route path="/portfolio">
+              <Portfolio />
+            </Route>
           </Switch>
         </div>
       </Router>
