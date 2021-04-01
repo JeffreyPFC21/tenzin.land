@@ -12,8 +12,6 @@ function App() {
       <header className="App-header">
         <img src="https://cdn.discordapp.com/emojis/764118435797925898.png" className="App-logo" alt="logo" />
         <p>
-          <ClassClick/>
-          <FunctionClick/>
           <Tenzin/>
           <Message/>
           <Counter/>

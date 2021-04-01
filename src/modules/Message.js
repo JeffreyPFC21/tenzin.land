@@ -7,22 +7,25 @@ export default class Message extends React.Component {
         this.state = {
             message: 'Welcome vistor',
             isSubbed: false,
-            subMsg: 'Subscribe'
+            subMsg: 'Subscribe',
+            usb: 0
         }
     }
  
     changeMessage() {
         if(this.state.isSubbed) {
-            this.setState({
+            this.setState(psl => ({
                 message: "Welcome random person i dont know",
-                isSubbed: false
-            })
+                isSubbed: false,
+                subMsg: "Subscribe (i know you unsubbed " + psl.usb
+            }))
         } else {
-            this.setState({
+            this.setState(psl => ({
                 message: "Welcome subsciber i defo know",
                 isSubbed: true,
-                subMsg: "dont you dare"
-            })
+                subMsg: "dont you dare",
+                usb: psl.usb + 1
+            }))
         }
     }
     render() {
