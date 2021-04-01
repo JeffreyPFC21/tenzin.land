@@ -6,7 +6,9 @@ export class Counter extends Component {
         super(props)
     
         this.state = {
-            counter: 0
+            counter: 0,
+            message: "who me?",
+            wmm: true
         }
     }
     
@@ -14,9 +16,17 @@ export class Counter extends Component {
         // this.setState({
         //     counter: this.state.counter + 1
         // })
-        this.setState(prevState => ({
-            counter: prevState.counter + 1
-        }))
+        if(this.state.wmm) {
+            this.setState(prevState => ({
+                counter: prevState.counter + 1,
+                message: "yes you"
+            }))
+        } else {
+            this.setState(prevState => ({
+                counter: prevState.counter + 1,
+                message: "bruh you smell go away"
+            }))
+        }
     }
 
     setCounter5() {
@@ -31,8 +41,10 @@ export class Counter extends Component {
         return (
             <div>
                 <h1>Count - {this.state.counter}</h1>
-                <button onClick={() => { this.setCounter()}}>Increment</button>
+                <h1>Tenzin says "{this.state.message}"</h1>
+                <button onClick={() => { this.setCounter()}}>Increment & Say something</button>
                 <button onClick={() => { this.setCounter5()}}>Increment 5</button>
+            
             </div>
         )
     }
