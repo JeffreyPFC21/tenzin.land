@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "git": "git add . && git commit -m \"Auto Commit by YARN\""
+    "git": "git add . && git commit -m \"Auto Commit by YARN\" && git push"
   },
   "eslintConfig": {
     "extends": [
