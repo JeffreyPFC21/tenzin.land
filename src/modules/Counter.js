@@ -24,8 +24,15 @@ export class Counter extends Component {
         } else {
             this.setState(prevState => ({
                 counter: prevState.counter + 1,
-                message: "bruh you smell go away"
+                message: "bruh you smell go away",
+                wmm: false
             }))
+
+            setTimeout(() => {
+                this.setState(ps => ({
+                    wmm: true
+                }))
+            }, 5000)
         }
     }
 
