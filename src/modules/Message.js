@@ -6,7 +6,8 @@ export default class Message extends React.Component {
         super()
         this.state = {
             message: 'Welcome vistor',
-            isSubbed: true
+            isSubbed: false,
+            subMsg: 'Subscribe'
         }
     }
  
@@ -27,7 +28,7 @@ export default class Message extends React.Component {
         return (
          <div>
             <h1><code>Hey I'm Tenzin, Welcome to tenzin.land, {this.state.message}</code></h1>
-            <button onClick={() => this.changeMessage()}>{this.state.isSubbed}</button>
+            <button onClick={() => this.changeMessage()}>{this.state.subMsg}</button>
         </div>
         )
     }
