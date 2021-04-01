@@ -11,11 +11,21 @@ class Portfolio extends Component {
         }
     }
 
+    clickHandler() {
+        this.setState(ps => ({
+            isLoaded: true,
+            message: "get scammed haha lol"
+        }))
+
+        var x = document.getElementsByClassName("buttonLoad")[0];
+        x.parentNode.removeChild(x)
+    }
+
     render() {
         return (
             <div className="App">
                 <p>{this.state.message}</p>
-                <button>load</button>
+                <button onClick={() => this.clickHandler()}>load</button>
             </div>
         )
     }

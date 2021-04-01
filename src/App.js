@@ -6,6 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import Home from './modules/Home';
+import Portfolio from './modules/Portfolio'
 
 function App() {
   return (
