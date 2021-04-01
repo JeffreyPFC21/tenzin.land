@@ -17,7 +17,7 @@ export default class Message extends React.Component {
             this.setState(psl => ({
                 message: "Welcome random person i dont know",
                 isSubbed: false,
-                subMsg: "Subscribe (i know you unsubbed " + psl.usb
+                subMsg: "Subscribe (i know you unsubbed " + psl.usb + " times)"
             }))
         } else {
             this.setState(psl => ({
