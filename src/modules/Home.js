@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import '../App.css';
-import Tenzin from './modules/Tenzin';
-import Message from './modules/Message';
-import Counter from './modules/Counter';
-import EventBind from './modules/EventBind';
+import Tenzin from './Tenzin';
+import Message from './Message';
+import Counter from './Counter';
+import EventBind from './EventBind';
 
 class Home extends Component {
     constructor(props) {
