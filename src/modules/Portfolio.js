@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css';
+import { Button } from 'evergreen-ui';
 
 class Portfolio extends Component {
     constructor(props) {
@@ -17,15 +18,14 @@ class Portfolio extends Component {
             message: "get scammed haha lol"
         }))
 
-        var x = document.getElementsByClassName("buttonLoad")[0];
-        x.parentNode.removeChild(x)
+        document.getElementsByClassName("buttonLoad")[0].style.visibility = 'hidden';
     }
 
     render() {
         return (
             <div className="App">
                 <p>{this.state.message}</p>
-                <button onClick={() => this.clickHandler()}>load</button>
+                <Button className="buttonLoad" intent="success" appearance="primary" onClick={() => this.clickHandler()}>load</Button>
             </div>
         )
     }

@@ -33,7 +33,7 @@ export default class Message extends React.Component {
         return (
          <div>
             <h1><code>{this.state.message}</code></h1>
-            <Button intent="success" onClick={() => this.changeMessage()}>{this.state.subMsg}</Button>
+            <Button intent="success" appearance="primary" onClick={() => this.changeMessage()}>{this.state.subMsg}</Button>
         </div>
         )
     }

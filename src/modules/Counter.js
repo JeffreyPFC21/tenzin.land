@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Button } from 'evergreen-ui';
 
 export class Counter extends Component {
     
@@ -49,7 +50,7 @@ export class Counter extends Component {
             <div>
                 <h1>Count - {this.state.counter}</h1>
                 <h1>Tenzin says "{this.state.message}"</h1>
-                <button onClick={() => { this.setCounter()}}>Increment & Say something</button>
+                <Button intent="success" appearance="primary" onClick={() => { this.setCounter()}}>Increment & Say something</Button>
                 <button onClick={() => { this.setCounter5()}}>Increment 5</button>
             
             </div>
