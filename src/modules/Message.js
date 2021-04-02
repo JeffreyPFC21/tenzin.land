@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'evergreen-ui'
 
 export default class Message extends React.Component {
 
@@ -31,8 +32,8 @@ export default class Message extends React.Component {
     render() {
         return (
          <div>
-            <h1><code>Hey I'm Tenzin, Welcome to tenzin.land, {this.state.message}</code></h1>
-            <button onClick={() => this.changeMessage()}>{this.state.subMsg}</button>
+            <h1><code>{this.state.message}</code></h1>
+            <Button intent="success" onClick={() => this.changeMessage()}>{this.state.subMsg}</Button>
         </div>
         )
     }
