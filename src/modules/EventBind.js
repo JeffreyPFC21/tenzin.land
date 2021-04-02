@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Button } from 'evergreen-ui';
 
 export class EventBind extends Component {
     
@@ -26,7 +27,7 @@ export class EventBind extends Component {
         return (
             <div>
                 <div>{this.state.message}</div>
-                <button onClick={this.clickHandler.bind(this)}>Click</button>
+                <Button appearance="primary" intent="danger" onClick={this.clickHandler.bind(this)}>Click</Button>
             </div>
         )
     }

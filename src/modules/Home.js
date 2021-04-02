@@ -6,30 +6,29 @@ import Counter from './Counter';
 import EventBind from './EventBind';
 
 class Home extends Component {
-    constructor(props) {
-        super(props)
+  constructor(props) {
+    super(props)
 
-        this.state = {
-            
-        }
-    }
+    this.state = {
 
-    render() {
-        return (
-            <header className="App-header">
-            <a href="https://github.com/SirTenzin/tenzin.land">
-            <img src="https://cdn.discordapp.com/emojis/764118435797925898.png" className="App-logo" alt="logo" />
-            </a>
-            <p>
-    
-              <Tenzin />
-              <Message />
-              <Counter />
-              <EventBind />
-            </p>
-          </header>  
-        )
     }
+  }
+
+  render() {
+    return (
+      <header className="App-header">
+        <a href="https://github.com/SirTenzin/tenzin.land">
+          <img src="https://cdn.discordapp.com/emojis/764118435797925898.png" className="App-logo" alt="logo" />
+        </a>
+        <p className="App-home"> 
+          <Tenzin />
+          <Message />
+          <Counter />
+          <EventBind />
+        </p>
+      </header>
+    )
+  }
 }
 
 export default Home
