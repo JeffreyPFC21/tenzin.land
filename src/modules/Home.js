@@ -15,6 +15,7 @@ class Home extends Component {
   }
 
   render() {
+    
     return (
       <header className="App-header">
         <a href="https://github.com/SirTenzin/tenzin.land">

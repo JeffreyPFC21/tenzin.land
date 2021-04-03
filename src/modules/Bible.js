@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import '../App.css';
+import '../index.css'
 
 class Bible extends Component {
     constructor(props) {
@@ -10,17 +12,21 @@ class Bible extends Component {
     }
 
     render() {
+        window.onload = function () {
+            document.getElementsByTagName("head")[0].innerHTML += `   
+
+            <meta name="theme-color" content="#DDA0DD" />
+            <meta
+                name="og:image"
+                content="https://cdn.discordapp.com/emojis/764118435797925898.png"
+            />
+            <meta
+                name="description"
+                content="Praise the Lordeemo!"
+            />`;
+        };
         return (
             <div>
-                <meta name="theme-color" content="#DDA0DD" />
-                <meta
-                    name="og:image"
-                    content="https://cdn.discordapp.com/emojis/764118435797925898.png"
-                />
-                <meta
-                    name="description"
-                    content="Praise the Lordeemo!"
-                />
                 <h1>Deemisis - The Beggining of art Deemo Christ</h1>
                 <h3>One</h3>
                 <h5>Selling Zoe for 40$ Cashapp. Tap in :inde:</h5>
