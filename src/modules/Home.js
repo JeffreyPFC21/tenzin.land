@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
 import '../App.css';
 import Tenzin from './Tenzin';
 import Message from './Message';
 import Counter from './Counter';
 import EventBind from './EventBind';
+import { Component } from 'react';
 
-class Home extends Component {
+export default class Home extends Component {
   constructor(props) {
     super(props)
 
@@ -15,7 +15,7 @@ class Home extends Component {
   }
 
   render() {
-    
+
     return (
       <header className="App-header">
         <a href="https://github.com/SirTenzin/tenzin.land">
@@ -36,9 +36,8 @@ class Home extends Component {
           <Counter />
           <EventBind />
         </p>
+
       </header>
     )
   }
 }
-
-export default Home

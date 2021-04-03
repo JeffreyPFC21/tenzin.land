@@ -2,12 +2,13 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Home from './modules/Home';
 import Portfolio from './modules/Portfolio';
 import Bible from './modules/Bible';
+
+
 
 function App() {
   if(window.location.host.split(".")[0] === "deemo") {
@@ -25,20 +26,12 @@ function App() {
         </Router>
       </div>
     );
+  } else if(window.location.host.split(".")[0] === "images") {
   } else {
     return (
       <div className="App-header">
         <Router>
           <div className="App">
-            <ul>
-              <li>
-                <Link to="/">tenzins nursery</Link>
-                <Link to="/portfolio">portflio</Link>
-              </li>
-            </ul>
-  
-            <hr />
-  
             <Switch>
               <Route exact path="/">
                 <Home />

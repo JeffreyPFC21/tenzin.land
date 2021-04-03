@@ -74,9 +74,9 @@ export class Counter extends Component {
             <div>
                 <Pill style={{"font-size": "1.2em", "text-align": "center"}} display="inline-flex" margin={8} width={50} height={50} color="red" isSolid>{this.state.counter}</Pill>
                 <h1>Tenzin says "{this.state.message}"</h1>
-                <Button intent="success" appearance="primary" onClick={() => { this.setCounter() }}>Increment & Say something</Button>
-                <Button intent="success" appearance="primary" onClick={() => { this.setCounter5() }}>Increment 5</Button>
-                <Button intent="danger"  appearance="primary" onClick={() => { this.clearCounter() }}>Clear your Cookies</Button>
+                <Button display="inline-block" justifyContent="center" intent="success" appearance="primary" onClick={() => { this.setCounter() }}>Increment & Say something</Button>
+                <Button display="inline-block" justifyContent="center" intent="success" appearance="primary" onClick={() => { this.setCounter5() }}>Increment 5</Button>
+                <Button display="inline-block" justifyContent="center" intent="danger"  appearance="primary" onClick={() => { this.clearCounter() }}>Clear your Cookies</Button>
             </div>
         )
     }
