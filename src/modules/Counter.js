@@ -72,7 +72,7 @@ export class Counter extends Component {
     render() {
         return (
             <div>
-                <Pill color="purple" isSolid marginRight={8} height={20} width={20}>{this.state.counter}</Pill>
+                <Pill style={{"font-size": "1.2em", "text-align": "center"}} display="inline-flex" margin={8} width={50} height={50} color="red" isSolid>{this.state.counter}</Pill>
                 <h1>Tenzin says "{this.state.message}"</h1>
                 <Button intent="success" appearance="primary" onClick={() => { this.setCounter() }}>Increment & Say something</Button>
                 <Button intent="success" appearance="primary" onClick={() => { this.setCounter5() }}>Increment 5</Button>
