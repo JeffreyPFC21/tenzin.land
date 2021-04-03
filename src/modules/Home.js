@@ -20,7 +20,16 @@ class Home extends Component {
         <a href="https://github.com/SirTenzin/tenzin.land">
           <img src="https://cdn.discordapp.com/emojis/764118435797925898.png" className="App-logo" alt="logo" />
         </a>
-        <p className="App-home"> 
+        <p className="App-home">
+          <meta name="theme-color" content="#DDA0DD" />
+          <meta
+            name="og:image"
+            content="https://cdn.discordapp.com/emojis/764118435797925898.png"
+          />
+          <meta
+            name="description"
+            content="uwu im poggers"
+          />
           <Tenzin />
           <Message />
           <Counter />
