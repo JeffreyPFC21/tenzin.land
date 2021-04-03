@@ -24,7 +24,8 @@ class Bible extends Component {
                 <h5>who tryna get extorted</h5>
                 <h5>For a man that gets 0 puss, I can sense when a bitch has a body count with triple digits</h5>
                 <h5>Finna go full KanKan on some of you bitches</h5>
-            
+                <h2>Vertelemetry</h2>
+                <h5>@everyone hi</h5>
             </div>   
         );
     }
