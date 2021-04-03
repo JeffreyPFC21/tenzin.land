@@ -89,8 +89,8 @@ a:hover {
 
 @font-face {
   font-family: 'Better Grade';
-  src: url('assets\\better-grade-font\\BetterGrade-519DV.eot'); /* IE9 Compat Modes */
-  src: url('assets\\better-grade-font\\BetterGrade-519DV.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  src: url('assets\\better-grade-font\\BetterGrade-519DV.eot') /* IE9 Compat Modes */
+       url('assets\\better-grade-font\\BetterGrade-519DV.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('assets\\better-grade-font\\BetterGrade-519DV.woff2') format('woff2'), /* Super Modern Browsers */
        url('assets\\better-grade-font\\BetterGrade-519DV.woff') format('woff'), /* Pretty Modern Browsers */
        url('assets\\better-grade-font\\BetterGrade-519DV.ttf')  format('truetype'), /* Safari, Android, iOS */
