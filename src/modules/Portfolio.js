@@ -24,6 +24,9 @@ class Portfolio extends Component {
     render() {
         return (
             <div className="App">
+                <br></br>
+                <br></br>
+
                 <p>{this.state.message}</p>
                 <Button className="buttonLoad" intent="success" appearance="primary" onClick={() => this.clickHandler()}>load</Button>
             </div>
