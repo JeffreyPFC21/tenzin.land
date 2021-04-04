@@ -61,10 +61,16 @@ class Bible extends Component {
                     <h2>Vertelemetry</h2>
                     <p>@everyone hi</p>
                     <h2>Tenzologistics</h2>
+                    <h3>One</h3>
                     <p>i miss my wife</p>
                     <p>i miss my mom</p>
                     <p>i miss xvell</p>
                     <p>i miss prism gen</p>
+                    <p>i miss gustavo</p>
+                    <p>i miss x1</p>
+                    <p>i miss the computer scientist</p>
+                    <h3>Two</h3>
+                    <p>imagine you b cranking 90s in fn and yo girl b crankin 90s on yo dick :rofl:</p>
                     <br/><h1>Deewomen - The jeeting and skeeting</h1>
                     <h3>One</h3>
                     <p>I am not single</p>
