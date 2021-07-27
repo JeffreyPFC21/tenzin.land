@@ -7,14 +7,12 @@ class Portfolio extends Component {
         super(props)
 
         this.state = {
-            isLoaded: false,
             message: "pls load tyty"
         }
     }
 
     clickHandler() {
         this.setState(ps => ({
-            isLoaded: true,
             message: "get scammed haha lol"
         }))
 
@@ -22,6 +20,11 @@ class Portfolio extends Component {
     }
 
     render() {
+        if(document.querySelector("body > nav")) {
+            var el = document.querySelector("body > nav")
+            el.style.visibility = 'hiddenn';
+            el.style.display = 'none';
+        }
         return (
             <div className="App">
                 <br></br>

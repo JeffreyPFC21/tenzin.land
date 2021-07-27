@@ -18,7 +18,7 @@ export default class Home extends Component {
 
     return (
       <header className="App-header">
-        <a href="https://github.com/SirTenzin/tenzin.land">
+        <a href="https://github.com/SirTenzin/tenzin.wtf">
           <img src="https://cdn.discordapp.com/emojis/764118435797925898.png" className="App-logo" alt="logo" />
         </a>
         <p className="App-home">

@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css';
 import '../index.css';
-import Sound from 'react-sound';
-import outside from './outside.mp3';
 
 class Bible extends Component {
     constructor(props) {
@@ -45,13 +43,6 @@ class Bible extends Component {
                     "font-style": "italic"
                 },
             }} className="Bible">
-                    <Sound 
-                        url={outside}
-                        playStatus={Sound.status.PLAYING}
-                        playFromPosition={100}
-                        loop={true}
-                        volume={30}
-                    />
                     <br></br><br></br>
                     <h1>Welcome to the Deemo Bibles. Here i record all biblical sayings said by art Deemo Christ</h1>
                     <br></br><br></br>
@@ -85,7 +76,7 @@ class Bible extends Component {
                     <p>i miss the computer scientist</p>
                     <h3>Two</h3>
                     <p>imagine you b cranking 90s in fn and yo girl b crankin 90s on yo dick :rofl:</p>
-                    <br/><h1>Deewomen - The jeeting and skeeting</h1>
+                    <br/><h1>Deewomen - degroomo fucktuckery</h1>
                     <h3>One</h3>
                     <p>I am not single</p>
                     <p>i like to beat dior violently</p>
