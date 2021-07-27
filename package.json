@@ -8,7 +8,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
-    "babel-loader": "^8.1.0",
+    "babel-loader": "^8.2.2",
     "bootstrap": "^4.5.3",
     "evergreen-ui": "^5.1.2",
     "jquery": "^3.5.1",
