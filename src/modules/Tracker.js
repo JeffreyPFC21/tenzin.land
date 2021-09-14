@@ -48,7 +48,6 @@ function Tracker({ placeholder, data }) {
                     <a
                       className="dataItem App"
                       href={value.link}
-                      target="_blank"
                     >
                       <p style={{ textAlign: "center" }}>
                         {value.shop} - {value.name} (${value.price})
