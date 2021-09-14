@@ -26,7 +26,7 @@ module.exports = [
   },
   {
     name: "PayPal FA",
-    price: "1.60",
+    price: "0.80",
     link: "https://sellix.io/zelix",
     shop: "Zelix",
   },
@@ -74,4 +74,20 @@ module.exports = [
     link: "https://themfnplug.io",
     shop: "TheMFNPlug",
   },
+
+  // DoorDash
+
+  // Chipotle
+  
+  // Panera
+
+  // Uber Eats 
+
+  // HSN 
+
+  // SquareUp
+
+  // BlueBird
+
+  //
 ];
