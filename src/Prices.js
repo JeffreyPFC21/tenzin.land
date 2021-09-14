@@ -1,5 +1,5 @@
 module.exports = [
-  // PayPal NFA
+  // PayPal
   {
     name: "PayPal NFA",
     price: "0.60",
@@ -29,6 +29,12 @@ module.exports = [
     price: "1.00",
     link: "https://sellix.io/paralogs",
     shop: "ParaLogs",
+  },
+  {
+    name: "PayPal FA",
+    price: "1.60",
+    link: "https://sellix.io/zelix",
+    shop: "Zelix",
   },
   // oword
   {
@@ -61,5 +67,17 @@ module.exports = [
     price: "0.25",
     link: "https://ping.fo",
     shop: "Ping",
+  },
+  {
+    name: "Yahoo BULK",
+    price: "0.20",
+    link: "https://sellix.io/zelix",
+    shop: "Zelix",
+  },
+  {
+    name: "Yahoo",
+    price: "0.50",
+    link: "https://themfnplug.io",
+    shop: "TheMFNPlug",
   },
 ];
