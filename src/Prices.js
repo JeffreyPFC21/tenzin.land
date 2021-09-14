@@ -14,12 +14,6 @@ module.exports = [
   },
   {
     name: "PayPal NFA",
-    price: "1.00",
-    link: "https://sellix.io/paralogs",
-    shop: "ParaLogs",
-  },
-  {
-    name: "PayPal NFA",
     price: "1.30",
     link: "https://sellix.io/starlogs",
     shop: "StarLogs",
