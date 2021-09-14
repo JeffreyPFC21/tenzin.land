@@ -3,6 +3,9 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
+  overflow: hidden;
+  overflow-y: auto;
+  background-color: #282c34;
 }
 
 .searchInputs {
