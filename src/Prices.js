@@ -1,0 +1,65 @@
+module.exports = [
+  // PayPal NFA
+  {
+    name: "PayPal NFA",
+    price: "0.60",
+    link: "https://logswrld.atshop.io/",
+    shop: "LogsWRLD",
+  },
+  {
+    name: "PayPal NFA",
+    price: "1.00",
+    link: "https://demi.atshop.io/",
+    shop: "Demi",
+  },
+  {
+    name: "PayPal NFA",
+    price: "1.00",
+    link: "https://sellix.io/paralogs",
+    shop: "ParaLogs",
+  },
+  {
+    name: "PayPal NFA",
+    price: "1.30",
+    link: "https://sellix.io/starlogs",
+    shop: "StarLogs",
+  },
+  {
+    name: "PayPal NFA",
+    price: "1.00",
+    link: "https://sellix.io/paralogs",
+    shop: "ParaLogs",
+  },
+  // oword
+  {
+    name: "tenzin easter egg",
+    price: "1.00",
+    link: "https://tenzin.wtf",
+    shop: "gg!",
+  },
+  // Yahoo
+  {
+    name: "Yahoo",
+    price: "0.20",
+    link: "https://demi.atshop.io",
+    shop: "Demi",
+  },
+  {
+    name: "Yahoo",
+    price: "0.35",
+    link: "https://goodshit.atshop.io",
+    shop: "GoodShit",
+  },
+  {
+    name: "Yahoo",
+    price: "0.25",
+    link: "https://synergy.do",
+    shop: "Synergy",
+  },
+  {
+    name: "Yahoo BULK",
+    price: "0.25",
+    link: "https://ping.fo",
+    shop: "Ping",
+  },
+];

@@ -9,6 +9,9 @@ import Portfolio from './modules/Portfolio';
 import Bible from './modules/Bible';
 import Bot from './modules/Bot';
 import Store from './modules/Store';
+import FallenStars from './modules/FallenStars';
+import Tracker from './modules/Tracker';
+import Prices from './Prices'
 
 function App() {
   if (window.location.host.split(".")[0] === "deemo") {
@@ -51,6 +54,30 @@ function App() {
               </Route>
             </Switch>
           </div>
+        </Router>
+      </div>
+    );
+  } else if(window.location.host.split(".")[0] === "fallenstars") {
+    return (
+      <div>
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <FallenStars />
+            </Route>
+          </Switch>
+        </Router>
+      </div>
+    );
+  } else if(window.location.host.split(".")[0] === "stock") {
+    return (
+      <div>
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <Tracker placeholder="Find the cheapest price available!" data={Prices}/>
+            </Route>
+          </Switch>
         </Router>
       </div>
     );
