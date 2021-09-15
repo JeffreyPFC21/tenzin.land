@@ -10,7 +10,6 @@ import Bible from './modules/Bible';
 import Bot from './modules/Bot';
 import Store from './modules/Store';
 import Tracker from './modules/Tracker';
-import Prices from './Prices'
 
 function App() {
   if (window.location.host.split(".")[0] === "deemo") {
@@ -62,7 +61,7 @@ function App() {
         <Router>
           <Switch>
             <Route exact path="/">
-              <Tracker placeholder="Find the cheapest price available!" data={Prices}/>
+              <Tracker placeholder="Find the cheapest price available!" />
             </Route>
           </Switch>
         </Router>
